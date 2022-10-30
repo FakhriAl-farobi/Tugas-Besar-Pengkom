@@ -35,10 +35,10 @@ def Cek():
                 time.sleep(random.random() * 0.04) #kecepatan mengetik
 
         print('      ', end=''); mengetik('Selamat Datang di Tol Masuk Jakarta - Tangerang'); time.sleep(0.5)
-        print('|----------------|--------------------------------------|'); time.sleep(0.1)
+        print('|----------------|--------------------------------------|-----------|'); time.sleep(0.1)
         for i in range(0, 7):
             print(Gol_Kdr[i]); time.sleep(0.1) #menuliskan daftar golongan kendaraan
-            print('|----------------|--------------------------------------|'); time.sleep(0.1)
+            print('|----------------|--------------------------------------|-----------|'); time.sleep(0.1)
         print()
         
         l = 1
