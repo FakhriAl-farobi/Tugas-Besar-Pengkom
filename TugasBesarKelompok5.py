@@ -21,9 +21,8 @@ def Cek():
     while (p==""):
         tarif_tolJT = [8000, 12000, 12000, 15500, 15500, '-']
         AsalPerjalanan = ['A : TomangIC', 'B : Tangerang', 'C : Cikupa']
-        Gol_Kdr = ['|    Golongan    |        Jenis Kendaraan               |', '|    Golongan I  |Sedan,Jip,Pick Up/Truck Kecil, dan Bus|', '|    Golongan II |       Truk dengan 2(dua) gandar      |', 
-        '|    Golongan III|       Truk dengan 3(tiga) gandar     |', '|    Golongan IV |       Truk dengan 4(empat) gandar    |', '|    Golongan V  |       Truk dengan 5(lima) gandar     |',
-        '|    Golongan VI |                    -                 |']
+        Gol_Kdr = ['|    Golongan    |        Jenis Kendaraan               |   Harga   |', '|    Golongan I  |Sedan,Jip,Pick Up/Truck Kecil, dan Bus| Rp8.000   |', '|    Golongan II |       Truk dengan 2(dua) gandar      | Rp12.000  |', 
+        '|    Golongan III|       Truk dengan 3(tiga) gandar     | Rp12.000  |', '|    Golongan IV |       Truk dengan 4(empat) gandar    | Rp15.500  |', '|    Golongan V  |       Truk dengan 5(lima) gandar     | Rp15.500  |']
         No_Rek0 = ['1234 5678', '2345 6789', '3456 7890', '4567 8901', '5678 9012', '6789 0123', '7890 1234', '8901 2345', '9012 3456', '0123 4567']
         b = 0
         z = False
