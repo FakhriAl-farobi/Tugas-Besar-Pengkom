@@ -157,7 +157,6 @@ def Cek():
                                 Isi_Ulang = int(input('Jumlah Pengisian Ulang : '))
                                 b = b + Isi_Ulang
                                 z = True
-                                mengetik('Sisa Saldo : '+ 'Rp' + str(b))
                         if z == False :
                             print('       ', end=''); mengetik('=== Rekening Belum Terdaftar ===')
 
